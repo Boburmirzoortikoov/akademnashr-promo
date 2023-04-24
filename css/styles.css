@@ -1,0 +1,44 @@
+.site-header {
+  background-color: #fff;
+}
+.sitenav-link {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.main-link {
+  font-size: 13px;
+  line-height: 15px;
+  text-decoration: none;
+  background-color: #ff7500;
+  color: #fff;
+}
+.hero {
+  background-color: #252420;
+  color: #fff;
+}
+.hero-content {
+  width: 390px;
+}
+
+.hero-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-img {
+  width: 510px;
+  height: 510px;
+}
+
+.hero-heading {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
