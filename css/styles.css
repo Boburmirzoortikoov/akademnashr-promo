@@ -7,11 +7,21 @@ body {
 
 /* SITE HEADER  */
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
   background-color: #fff;
 }
 
+.site-header-actions {
+  display: flex;
+  align-items: center;
+}
+
+
 /* SITENAV  */
 .sitenav-list {
+  display: flex;
   list-style: none;
 }
 
@@ -36,6 +46,9 @@ body {
 
 /* HERO  */
 .hero {
+  display: flex;
+  align-items: center;
+justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -73,6 +86,12 @@ body {
   line-height: 120%;
 }
 
+.features-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
 /* FEATURE  */
 .feature {
   width: 340px;
@@ -96,6 +115,9 @@ body {
 
 /* PROMO  */
 .promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -133,17 +155,32 @@ body {
   list-style: none;
 }
 
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer-line {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
+.site-footer-bottom {
+  display: flex;
+}
+
 .site-footer-links {
   width: 224px;
+  line-height: 19px;
 }
 
 .site-footer-links a {
-  line-height: 19px;
   text-decoration: none;
   color: #252420;
 }
