@@ -5,10 +5,18 @@ body {
   letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 3px groove #ff7500;
+  outline-offset: 3px;
+}
+
 /* SITE HEADER  */
 .site-header {
   display: flex;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #ff7500;
   justify-content:space-between;
   background-color: #fff;
 }
@@ -35,6 +43,7 @@ body {
 .sitenav-list {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .sitenav-link {
@@ -59,7 +68,11 @@ body {
 
 /* MAIN LINK  */
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-size: 13px;
+  font-weight: bold;
   line-height: 15px;
   text-decoration: none;
   background-color: #ff7500;
@@ -77,9 +90,11 @@ body {
 
 /* HERO  */
 .hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   align-items: center;
-justify-content: space-between;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -88,12 +103,14 @@ justify-content: space-between;
 }
 
 .hero-line {
+  border: none;
   width: 80px;
   height: 3px;
   background-color: #ff7500;
 }
 
 .hero-img {
+  border-radius: 8px;
   width: 510px;
   height: 510px;
 }
@@ -121,14 +138,25 @@ justify-content: space-between;
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding: 0;
 }
 
 /* FEATURE  */
+
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+
 .feature {
   width: 340px;
 }
 
 .future-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
@@ -149,6 +177,7 @@ justify-content: space-between;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 12px;
   background-color: #252420;
   color: #fff;
 }
@@ -175,10 +204,13 @@ justify-content: space-between;
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 /* SITE-FOOTER  */
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 
@@ -189,6 +221,7 @@ justify-content: space-between;
 .social-media {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .social-media a {
@@ -212,6 +245,7 @@ justify-content: space-between;
 .footer-line {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+  border: 0;
 }
 
 .site-footer-bottom {
@@ -221,6 +255,7 @@ justify-content: space-between;
 .site-footer-links {
   width: 224px;
   line-height: 19px;
+  padding: 0;
 }
 
 .site-footer-links a {
